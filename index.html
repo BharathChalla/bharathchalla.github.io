@@ -105,7 +105,7 @@
 <script src="https://kit.fontawesome.com/373f8de6a1.js" crossorigin="anonymous"></script>
 <script>
     // Set the date we're counting down to Jul 14 2023 23:59:59
-    const countDownDate = new Date("Jul 14, 2023 23:59:59").getTime();
+    const countDownDate = new Date("Jul 31, 2023 23:59:59").getTime();
 
 
     // Update the count down every 1 second
@@ -130,7 +130,7 @@
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(count_down_function);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            document.getElementById("demo").innerHTML = "";
         }
     }, 1000);
 </script>
