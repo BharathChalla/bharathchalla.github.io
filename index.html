@@ -1,139 +1,1321 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <title>Portfolio | Bharath Challa</title>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+          rel="stylesheet">
+
+    <!-- title of site -->
+    <title>Bharath Challa</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--flat icon css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 </head>
-<style>
-    body, html {
-        height: 100%;
-        margin: 0;
-    }
 
-    .bg-img {
-        background-image: url('/assets/forestbridge.jpg');
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 25px;
-    }
-
-    .top-center {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        text-align: center;
-    }
-
-    .bottom-right {
-        position: absolute;
-        bottom: 0;
-        right: 16px;
-    }
-
-    .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    hr {
-        margin: auto;
-        width: 40%;
-    }
-
-    .icon-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .icon-container a {
-        display: inline-block;
-        margin: 10px;
-        color: #aaaaaa;
-        transition: color 0.3s;
-    }
-
-    .icon-container a:hover {
-        color: dodgerblue;
-    }
-</style>
 <body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">
+    You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.
+</p>
+<![endif]-->
 
-<div class="bg-img">
-    <div class="top-center">
-        <h1>BHARATH CHALLA</h1>
+<!-- top-area Start -->
+<header class="top-area">
+    <div class="header-area">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+            <div class="container">
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Bharath</a>
+                </div><!--/.navbar-header-->
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="smooth-menu active"></li>
+                        <li class="smooth-menu"><a href="#education">education</a></li>
+                        <li class="smooth-menu"><a href="#skills">skills</a></li>
+                        <li class="smooth-menu"><a href="#experience">experience</a></li>
+                        <li class="smooth-menu"><a href="#profiles">profile</a></li>
+                        <li class="smooth-menu"><a href="#projects">projects</a></li>
+                        <li class="smooth-menu"><a href="#publications">publications</a></li>
+                        <li class="smooth-menu"><a href="#certifications">certifications</a></li>
+                        <li class="smooth-menu"><a href="#contact">contact</a></li>
+                    </ul><!--/.nav -->
+                </div><!-- /.navbar-collapse -->
+            </div><!--/.container-->
+        </nav><!--/nav-->
+        <!-- End Navigation -->
+    </div><!--/.header-area-->
+
+    <div class="clearfix"></div>
+
+</header><!-- /.top-area-->
+<!-- top-area End -->
+
+<!--welcome-hero start -->
+<section id="welcome-hero" class="welcome-hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="header-text">
+                    <h2>Hi <span>,</span> I am <br> Bharath <br> Challa <span>.</span></h2>
+                    <p>Software Development Engineer /<br> Machine Learning Engineer / Researcher</p>
+                    <a href="assets/download/Bharath_Challa.pdf" download>Resume</a>
+                </div><!--/.header-text-->
+            </div><!--/.col-->
+        </div><!-- /.row-->
+    </div><!-- /.container-->
+
+</section><!--/.welcome-hero-->
+<!--welcome-hero end -->
+
+<!--about start -->
+<section id="about" class="about">
+    <div class="section-heading text-center">
+        <h2>about me</h2>
     </div>
-    <div class="middle">
-        <p>Here are some ways to connect with me</p>
+    <div class="container">
+        <div class="about-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="single-about-txt">
+                        <h3>
+                            With over 7 years of professional experience, I've honed my skills as a software engineer,
+                            specializing in designing and developing various software systems, including Machine
+                            Learning, Android, Back-end, and Full-stack applications, as well as proficiency in CI/CD
+                            tools. I've had the privilege of working within teams of varying sizes across the globe,
+                            where my strong communication skills and collaborative spirit have consistently made a
+                            significant impact.
+                        </h3>
+                        <p>
+                            I am passionate about learning and growing in the field of software. and I possess a quick
+                            understanding of various technologies, and I am skilled in breaking down complex problems
+                            into smaller manageable parts, which I can solve by producing clean, production-grade code.
+                            Additionally, I am capable of improving application performance, resulting in timely and
+                            efficient project delivery that meets the project's scope and exceeds expectations. I have
+                            experience in working with Agile Methodologies, and practicing SDLC process in day-to-day
+                            life.
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="single-about-add-info">
+                                    <h3>phone</h3>
+                                    <p>972-804-6333</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="single-about-add-info">
+                                    <h3>email</h3>
+                                    <p>bharathchalla5@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-about-add-info">
+                                    <h3>website</h3>
+                                    <p>bharathchalla.github.io</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-offset-1 col-sm-5">
+                    <div class="single-about-img">
+                        <img class="center" src="assets/images/about/profile_image.png" alt="profile_image">
+                        <div class="about-list-icon">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/bharathchalla/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="https://github.com/BharathChalla" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="https://twitter.com/imBharathC" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
+                                    <a href="https://scholar.google.com/citations?user=TDrOhrIAAAAJ&hl=en"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-google-scholar" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                            </ul><!-- / ul -->
+                        </div><!-- /.about-list-icon -->
 
-        <div class="icon-container">
-            <a href="https://github.com/BharathChalla" target="_blank">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/bharathchalla" target="_blank">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://scholar.google.com/citations?user=9BPMeIUAAAAJ" target="_blank">
-                <i class="fas fa-graduation-cap fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/imBharathC" target="_blank">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="mailto:Bharath.Challa@utdallas.edu">
-                <i class="fas fa-envelope fa-2x"></i>
-            </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/.about-->
+<!--about end -->
+
+<!--education start -->
+<section id="education" class="education">
+    <div class="section-heading text-center">
+        <h2>education</h2>
+    </div>
+    <div class="container">
+        <div class="education-horizontal-timeline">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>2021 - 2023</h2>
+                            <h3>Master of Science(Thesis) <br> Computer Science (CS)</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">
+                                    The University of Texas at Dallas
+                                </h4>
+                                <h5>Richardson, TX, USA</h5>
+                                <p class="description">
+                                    Thesis topic "Deep Probabilistic Models for Step Recognition and Step Localization
+                                    in Egocentric Videos."
+                                </p>
+                            </div><!--/.timeline-content-->
+                        </div><!--/.timeline-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>2010 - 2014</h2>
+                            <h3>Bachelor <span>of </span> Technology <br> Computer Science and Engineering (CSE)</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">
+                                    Sri Venkateswara University
+                                </h4>
+                                <h5>Andhra Pradesh, India</h5>
+                                <p class="description">
+                                    Specialization on Open Source System and Cloud Computing
+                                </p>
+                            </div><!--/.timeline-content-->
+                        </div><!--/.timeline-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!--/.education-->
+<!--education end -->
+
+<!--skills start -->
+<section id="skills" class="skills">
+    <div class="skill-content">
+        <div class="section-heading text-center">
+            <h2>skills</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="single-skill-content">
+                        <div class="barWrapper">
+                            <span class="progressText">Deep Learning</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+                                    </div>
+                                </div>
+                                <h3>95%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">App development</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+                                    </div>
+                                </div>
+                                <h3>90%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">Web Development</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>85%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">Research</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>90%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-skill-content">
+                        <div class="barWrapper">
+                            <span class="progressText">Database</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>95%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">Distributed Systems</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>80%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">Creativity</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>95%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                        <div class="barWrapper">
+                            <span class="progressText">Communication</span>
+                            <div class="single-progress-txt">
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10"
+                                         aria-valuemax="100" style="">
+
+                                    </div>
+                                </div>
+                                <h3>95%</h3>
+                            </div>
+                        </div><!-- /.barWrapper -->
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div>    <!-- /.container -->
+    </div><!-- /.skill-content-->
+
+</section><!--/.skills-->
+<!--skills end -->
+
+<!--experience start -->
+<section id="experience" class="experience">
+    <div class="section-heading text-center">
+        <h2>experience</h2>
+    </div>
+    <div class="container">
+        <div class="experience-content">
+            <div class="main-timeline">
+                <ul>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>Aug 2022 - Dec 2023</h2>
+                                        <h3>Research Assistant / Teaching Assistant</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                The University of Texas at Dallas <br>
+                                                Erik Jonsson School of Engineering & Computer Science
+                                            </h4>
+                                            <h5>Richardson, TX, US</h5>
+                                            <p class="description">
+                                                Engaged in groundbreaking research alongside Dr. Vibhav Gogate, I am
+                                                actively involved in pioneering Neuro-Symbolic Methods and
+                                                Perceptually-Enabled Task Guidance (PTG). My current focus revolves
+                                                around the development of an innovative Neuro-symbolic based Augmented
+                                                Reality system for Hololens2, leveraging action recognition technology
+                                                to provide unparalleled task guidance. Additionally, I have played a
+                                                pivotal role in the collection and streamlining of data for the
+                                                CaptainCook4D dataset, implementing rigorous pre-processing
+                                                methodologies to glean insights into procedural errors.
+                                                <br><br>
+                                                In my capacity as a Teaching Assistant for ML, Database, and Algorithms,
+                                                I assume a multifaceted role encompassing the meticulous grading of
+                                                assignments, hosting informative office hours, and meticulously
+                                                preparing comprehensive homework solutions. This academic endeavor
+                                                underscores my dedication to fostering a deeper understanding of complex
+                                                concepts and empowering students to excel in their academic pursuits.
+                                            </p>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text-right">
+                                            <h4 class="title">
+                                                Samsung Research Institute India
+                                            </h4>
+                                            <h5>Bangalore, India</h5>
+                                            <p class="description">
+                                                Development of the Samsung Neural Keyboard, a specialized input solution
+                                                for flagship devices. Utilizing Statistical Language Modeling, we
+                                                achieved precise touch-point prediction. By integrating advanced
+                                                techniques like Character Language Model and Word Language Models, I
+                                                optimized the keyboard's performance, ensuring an intuitive user
+                                                experience across diverse devices.
+                                                <br><br>
+                                                Crafted a compact 0.5 MB Android app employing Deep Neural Network
+                                                technology for efficient information extraction. This initiative
+                                                underscored my commitment to innovation and streamlined functionality in
+                                                software development. Additionally, my research presented at ICSC-2021
+                                                stood out as a top contender for the best paper award, highlighting my
+                                                dedication to advancing information extraction technologies.
+                                            </p>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                            Mar 2018 — Jul 2021
+                                        </h2>
+                                        <h3>Lead Software Engineer</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>Mar 2016 - Feb 2018</h2>
+                                        <h3>Senior Software Engineer</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                Samsung R&D Institute India
+                                            </h4>
+                                            <h5>Bangalore, India</h5>
+                                            <p class="description">
+                                                Spearheaded the development of modules aligned with design
+                                                specifications, focusing on implementing flagship device features. My
+                                                role also encompassed thorough debugging, where I conducted root cause
+                                                analysis to identify and rectify defects efficiently. With proficiency
+                                                in module development, flagship device feature implementation, and adept
+                                                debugging skills backed by root cause analysis, I ensured the seamless
+                                                integration of cutting-edge functionalities into the flagship device.
+                                                <br><br>
+                                                Developed machine-learned natural language models aimed at enhancing
+                                                accuracy by incorporating variations and ensuring balanced data
+                                                distribution across classes. This involved meticulous data balancing
+                                                techniques and introducing diverse variations within the machine-learned
+                                                models to bolster their accuracy and robustness.
+                                            </p>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text-right">
+                                            <h4 class="title">
+                                                Samsung R&D Institute India
+                                            </h4>
+                                            <h5>Bangalore, India</h5>
+                                            <p class="description">
+                                                Developed a UI Web portal tailored for deployment and monitoring of
+                                                development status, build progress, and results. This involved designing
+                                                and implementing a MySQL database schema meticulously crafted for
+                                                seamless integration within the Dashboard project. Leveraging
+                                                technologies such as Spring Boot and Micro Services facilitated
+                                                efficient web development, while CI/CD tools like Jenkins and QuickBuild
+                                                streamlined the deployment pipeline.
+                                                <br><br>
+                                                Performance optimization for the S-Health app, significantly reducing
+                                                response time and memory usage while enhancing the overall user
+                                                interface. Applying advanced concepts such as Object-Oriented Analysis
+                                                and Design (OOAD) principles played a pivotal role in improving app
+                                                performance and delivering an enhanced user experience.
+                                            </p>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span>
+                                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                            </span>
+                                            Jul 2014 — Feb 2016
+                                        </h2>
+                                        <h3>Software Engineer</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+                </ul>
+            </div><!--.main-timeline-->
+        </div><!--.experience-content-->
+    </div>
+
+</section><!--/.experience-->
+<!--experience end -->
+
+<!--profiles start -->
+<section id="profiles" class="profiles">
+    <div class="profiles-details">
+        <div class="section-heading text-center">
+            <h2>profiles</h2>
+        </div>
+        <div class="container">
+            <div class="profiles-content">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://www.linkedin.com/in/bharathchalla/" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <div class="profile-icon-name">Linkedin</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://www.linkedin.com/in/bharathchalla/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <div class="profile-icon-name">Linkedin</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://github.com/BharathChalla" target="_blank" rel="noopener noreferrer">
+                                    <i class="flaticon-github-logo"></i>
+                                </a>
+                                <div class="profile-icon-name">GitHub</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://github.com/BharathChalla" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="flaticon-github-logo"></i>
+                                    </a>
+                                    <div class="profile-icon-name">GitHub</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://scholar.google.com/citations?user=TDrOhrIAAAAJ&hl=en" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-google-scholar"></i>
+                                </a>
+                                <div class="profile-icon-name">Google Scholar</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://scholar.google.com/citations?user=TDrOhrIAAAAJ&hl=en"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fa-brands fa-google-scholar"></i>
+                                    </a>
+                                    <div class="profile-icon-name">Google Scholar</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-profile profile-no-border">
+                            <div class="profile-txt">
+                                <a href="https://leetcode.com/bharathchalla/" target="_blank" rel="noopener noreferrer">
+                                    <i class="cib-leetcode"></i></a>
+                                <div class="profile-icon-name">leetcode</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://leetcode.com/bharathchalla/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="cib-leetcode"></i></a>
+                                    <div class="profile-icon-name">leetcode</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-border"></div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://www.kaggle.com/bharathchalla" target="_blank"
+                                   rel="noopener noreferrer"><i class="fa-brands fa-kaggle"></i></a>
+                                <div class="profile-icon-name">Kaggle</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://www.kaggle.com/bharathchalla"
+                                       target="_blank" rel="noopener noreferrer"><i
+                                            class="fa-brands fa-kaggle"></i></a>
+                                    <div class="profile-icon-name">Kaggle</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://www.hackerrank.com/profile/BharathChalla" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-hackerrank"></i>
+                                </a>
+                                <div class="profile-icon-name">HackerRank</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://www.hackerrank.com/profile/BharathChalla" target="_blank"
+                                       rel="noopener noreferrer"><i class="fab fa-hackerrank"></i></a>
+                                    <div class="profile-icon-name">HackerRank</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-profile">
+                            <div class="profile-txt">
+                                <a href="https://www.codechef.com/users/bharathchalla" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-code"></i>
+                                </a>
+                                <div class="profile-icon-name">CodeChef</div>
+                            </div>
+                            <div class="single-profile-overlay">
+                                <div class="profile-txt">
+                                    <a href="https://www.codechef.com/users/bharathchalla" target="_blank"
+                                       rel="noopener noreferrer"><i class="fab fa-code"></i></a>
+                                    <div class="profile-icon-name">CodeChef</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!--/.profiles-->
+<!--profiles end -->
+
+<!--portfolio start -->
+<section id="projects" class="projects">
+    <div class="portfolio-details">
+        <div class="section-heading text-center">
+            <h2>portfolio</h2>
+        </div>
+        <div class="container">
+            <div class="portfolio-content">
+                <div class="isotope">
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/projects/cv_course.jpg" alt="portfolio image"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/ComputerVision" target="_blank"
+                                       rel="noopener noreferrer">
+                                        Computer Vision<br/>
+                                        Understand 3D world from 2D images
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/projects/ai_course.gif" alt="portfolio image"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/ArtificialIntelligence" target="_blank"
+                                       rel="noopener noreferrer">
+                                        Artificial Intelligence<br/>
+                                        Search Methods and Heuristics,
+                                        Deep Learning, and Reinforcement Learning
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/projects/ml_course.png" alt="portfolio image"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/MachineLearning" target="_blank"
+                                       rel="noopener noreferrer">
+                                        Machine Learning <br/>
+                                        KNN, Decision Trees, Random Forest, SVM, Neural Networks and Bayesian Networks
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/projects/captain_cook4d.gif" alt="portfolio course"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://captaincook4d.github.io/captain-cook/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        CaptainCook4D: A dataset for understanding errors in procedural activities
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/projects/db_course.jpg" alt="portfolio image"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/DatabaseDesign" target="_blank"
+                                       rel="noopener noreferrer">
+                                        Database Design - DoorDash <br/>
+                                        ERD, Normalization, SQL, and NoSQL
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/projects/bd_course.jpg" alt="portfolio image"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/BigDataManagementAndAnalytics"
+                                       target="_blank" rel="noopener noreferrer">
+                                        Big Data Management and Analytics <br/>
+                                        Twitter-Sentiment-Analysis, Hive MR, Hive, Tez, Impala and PySpark
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/projects/step_action_former.png" alt="portfolio course"
+                                     style="border: #000000 3px outset"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://github.com/BharathChalla/ActionFormer"
+                                       target="_blank" rel="noopener noreferrer">
+                                        Step-ActionFormer [Neuro-Symbolic Methods]
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+
+                        <div class="col-sm-4">
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!--/.isotope-->
+            </div><!--/.gallery-content-->
+        </div><!--/.container-->
+    </div><!--/.portfolio-details-->
+
+</section><!--/.portfolio-->
+<!--portfolio end -->
+<!--publication start -->
+<section id="publications" class="publications">
+    <div class="section-heading text-center">
+        <h2>Publications & Patents</h2>
+    </div>
+    <div class="container">
+        <div class="publications-horizontal-timeline">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>CaptainCook4D: A dataset for understanding errors in procedural activities</h2>
+                            <h3>DMLR @ICML 2023: <span class=""><a
+                                    href="https://arxiv.org/abs/2312.14556"
+                                    target="_blank" rel="noopener noreferrer">10.48550/arXiv.2312.14556</a></span>
+                            </h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>Deep Probabilistic Models for Step Recognition and Step Localization in Egocentric
+                                Videos.</h2>
+                            <h3> &nbsp;</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>LiteMuL: A Lightweight On-Device Sequence Tagger using Multi-task Learning</h2>
+                            <h3>ICSC 2021: <span class=""><a
+                                    href="https://arxiv.org/pdf/2101.03024" target="_blank"
+                                    rel="noopener noreferrer">10.1109/ICSC50631.2021.00007</a></span></h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>Emplite: A lightweight sequence labeling model for emphasis selection of short
+                                texts</h2>
+                            <h3>ICON 2020 conference:
+                                <span class="">
+                                    <a href="https://arxiv.org/abs/2401.02424" target="_blank"
+                                       rel="noopener noreferrer">10.48550/arXiv.2101.03025</a>
+                                </span>
+                            </h3>
+                        </div><!--/.experience-time-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>Methods and systems for predicting keystrokes using a unified neural network</h2>
+                            <h3>Patent: <span class=""><a href="https://patents.google.com/patent/US20210173555A1/en"
+                                                          target="_blank" rel="noopener noreferrer">US20210173555A1</a></span>
+                            </h3>
+                        </div><!--/.experience-time-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!--/.publication-->
+<!--publication end -->
+
+<!--certifications start -->
+<section id="certifications" class="certifications">
+    <div class="certifications-details">
+        <div class="section-heading text-center">
+            <h2>Certifications</h2>
+        </div>
+        <div class="container">
+            <div class="portfolio-content">
+                <div class="isotope">
+                    <div class="row">
+                        <!--Nvidia DLI starts-->
+                        <!--first column starts-->
+                        <div class="col-sm-3">
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_AnomalyDetection.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/e23e253b8156408690b965074735e618/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Applications of AI for Anomaly Detection
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_CUDAC++.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/74d08568816d4873abe19db08dc8b60d/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Fundamentals of Accelerated Computing with CUDA C/C++
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--first column ends -->
+
+                        <!--second column starts-->
+                        <div class="col-sm-3">
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_ConversationalAI.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/5ca76004f84244908df5f4ed5fc4e1ef/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Building Conversational AI Applications
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_CUDAPython.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/6aa22eef557d462cb87567e6f1a8ac8d/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Fundamentals of Accelerated Computing with CUDA Python
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--second column ends -->
+
+                        <!--third column starts-->
+                        <div class="col-sm-3">
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_RecommenderSystems.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/db0aeb5879014fa18b0bfdc37d860225/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Building Intelligent Recommender Systems
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_AcceleratedDataScience.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/1d7e513f2ae243eea1123cc183d3b53d/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Fundamentals of Accelerated Data Science
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--third column ends -->
+
+                        <!--fourth column starts-->
+                        <div class="col-sm-3">
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_TransformerNLP.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/8924450656c3436f8e1f683e520e70ea/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Building Transformer-Based Natural Language Processing
+                                        Applications
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Nvidia_DLI_DeepLearning.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.nvidia.com/certificates/9b5102f9da2c4ac6ab34e2d771edc166/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        NVIDIA DLI Certificate – Fundamentals of Deep Learning
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--fourth column ends -->
+
+                    </div><!-- /.row -->
+
+                    <div class="row">
+                        <!--third column starts -->
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_NLP.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QREM973EPVMJ"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - Natural Language Processing Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_TF_Advanced.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NT339KUELZ9X"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - TensorFlow: Advanced Techniques Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_Algorithms.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3J6PYPGM3AZ5"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - Algorithms Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--third column ends -->
+
+                        <!--fourth column starts -->
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_GAN.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XFR6MLM5257B"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - Generative Adversarial Networks (GANs) Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_TF_DataDeployment.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JQHQALZ826T5"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - TensorFlow: Data and Deployment Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_Kotlin_Java.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/certificate/9LLX3DJA7G4S"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - Kotlin for Java Developers
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--fourth column ends -->
+
+                        <!--fifth column starts -->
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_DL.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XEFLHZEW2MRC"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - Deep Learning Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Coursera_TF_Developer.png"
+                                     alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YUQTFXLB5F4W"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Coursera - TensorFlow Developer Specialization
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img src="assets/images/certifications/Edx_I2CPx.png" alt="portfolio image"/>
+                                <div class="isotope-overlay">
+                                    <a href="https://courses.edx.org/certificates/71bd0eff63414718a31916d56fc039c1"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Edx - I2CPx: How to Win Coding Competitions: Secrets of Champions
+                                    </a>
+                                </div><!-- /.isotope-overlay -->
+                            </div><!-- /.item -->
+                        </div><!-- /.col -->
+                        <!--fifth column ends -->
+
+
+                    </div><!-- /.row -->
+                </div><!--/.isotope-->
+            </div><!--/.gallery-content-->
+        </div><!--/.container-->
+    </div><!--/.portfolio-details-->
+
+</section><!--/.portfolio-->
+
+<!--contact start -->
+<section id="contact" class="contact">
+    <div class="section-heading text-center">
+        <h2>contact me</h2>
+    </div>
+    <div class="container">
+        <div class="contact-content">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-5 col-sm-6">
+                    <div class="single-contact-box">
+                        <div class="contact-form">
+                            <form id="contactForm" name="EmailForm">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="name"></label>
+                                            <input type="text" class="form-control" id="name" placeholder="Name*"
+                                                   name="name">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="email"></label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email*"
+                                                   name="email">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="subject"></label>
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                                   name="subject">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="comment"></label>
+                                            <textarea class="form-control" rows="8" id="comment" placeholder="Message"
+                                                      name="message"></textarea>
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="single-contact-btn">
+                                            <button class="contact-btn" type="submit" role="button">Submit</button>
+                                        </div><!--/.single-single-contact-btn-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                            </form><!--/form-->
+                        </div><!--/.contact-form-->
+                    </div><!--/.single-contact-box-->
+                </div><!--/.col-->
+                <div class="col-md-offset-1 col-md-5 col-sm-6">
+                    <div class="single-contact-box">
+                        <div class="contact-adress">
+                            <div class="contact-add-head">
+                                <h3>Bharath Challa</h3>
+                                <p>Software Development Engineer /<br>
+                                    Machine Learning Engineer /<br>
+                                    Researcher</p>
+                            </div>
+                            <div class="contact-add-info">
+                                <div class="single-contact-add-info">
+                                    <h3>phone</h3>
+                                    <p>972-804-6333</p>
+                                </div>
+                                <div class="single-contact-add-info">
+                                    <h3>email</h3>
+                                    <p>bharathchalla5@gmail.com</p>
+                                </div>
+                                <div class="single-contact-add-info">
+                                    <h3>website</h3>
+                                    <p>bharathchalla.github.io</p>
+                                </div>
+                            </div>
+                        </div><!--/.contact-adress-->
+                        <div class="hm-foot-icon">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/bharathchalla/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li><!--/li-->
+                                <li>
+                                    <a href="https://github.com/BharathChalla" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </li><!--/li-->
+                                <li>
+                                    <a href="https://twitter.com/imBharathC" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li><!--/li-->
+                                <li>
+                                    <a href="https://scholar.google.com/citations?user=TDrOhrIAAAAJ&hl=en"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-google-scholar"></i>
+                                    </a>
+                                </li><!--/li-->
+                            </ul><!--/ul-->
+                        </div><!--/.hm-foot-icon-->
+                    </div><!--/.single-contact-box-->
+                </div><!--/.col-->
+            </div><!--/.row-->
+        </div><!--/.contact-content-->
+    </div><!--/.container-->
+
+</section><!--/.contact-->
+<!--contact end -->
+
+<!--footer-copyright start-->
+<footer id="footer-copyright" class="footer-copyright">
+    <div class="container">
+        <div class="hm-footer-copyright text-center">
+            <p>&copy; Copyright Bharath Challa. Design and Developed by
+                <a href="https://www.themesine.com/">themesine</a>
+            </p><!--/p-->
+        </div><!--/.text-center-->
+    </div><!--/.container-->
+
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up " id="scroll-top-in"></i>
         </div>
 
-        <h2>Detailed Page</h2>
-        <h3>Coming Soon</h3>
-        <hr>
-        <p id="demo" style="font-size:30px"></p>
-    </div>
-</div>
-<div class="bottom-right">
-    <p>Bharath Challa</p>
-</div>
+    </div><!--/.scroll-Top-->
 
-<!-- Include the Font Awesome CDN -->
-<script src="https://kit.fontawesome.com/373f8de6a1.js" crossorigin="anonymous"></script>
-<script>
-    // Set the date we're counting down to Jul 14 2023 23:59:59
-    const countDownDate = new Date("Jul 14, 2023 23:59:59").getTime();
+</footer><!--/.footer-copyright-->
+<!--footer-copyright end-->
 
+<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-    // Update the count down every 1 second
-    const count_down_function = setInterval(function () {
+<script src="assets/js/jquery.js"></script>
 
-        // Get todays date and time
-        const now = new Date().getTime();
+<!--modernizr.min.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-        // Find the distance between now an the count down date
-        const distance = countDownDate - now;
+<!--bootstrap.min.js-->
+<script src="assets/js/bootstrap.min.js"></script>
 
-        // Time calculations for days, hours, minutes and seconds
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+<!-- bootsnav js -->
+<script src="assets/js/bootsnav.js"></script>
 
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+<!-- jquery.sticky.js -->
+<script src="assets/js/jquery.sticky.js"></script>
 
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(count_down_function);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-    }, 1000);
+<!-- for progress bar start-->
+
+<!-- progressbar js -->
+<script src="assets/js/progressbar.js"></script>
+
+<!-- appear js -->
+<script src="assets/js/jquery.appear.js"></script>
+
+<!-- for progress bar end -->
+
+<!--owl.carousel.js-->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<!--email.js-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 
+<!--Custom JS-->
+<script src="assets/js/custom.js"></script>
+
 </body>
+
 </html>
