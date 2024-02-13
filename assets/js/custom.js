@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     $('li.smooth-menu a').bind("click", function (event) {
         event.preventDefault();
-        var anchor = $(this);
+        const anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $(anchor.attr('href')).offset().top - 65
         }, 1200, 'easeInOutExpo');
@@ -56,15 +56,15 @@ $(document).ready(function () {
 
     // 3. Progress-bar
 
-    var dataToggleTooTip = $('[data-toggle="tooltip"]');
-    var progressBar = $(".progress-bar");
+    const dataToggleTooTip = $('[data-toggle="tooltip"]');
+    const progressBar = $(".progress-bar");
     if (progressBar.length) {
         progressBar.appear(function () {
             dataToggleTooTip.tooltip({
                 trigger: 'manual'
             }).tooltip('show');
             progressBar.each(function () {
-                var each_bar_width = $(this).attr('aria-valuenow');
+                const each_bar_width = $(this).attr('aria-valuenow');
                 $(this).width(each_bar_width + '%');
             });
         });
@@ -147,7 +147,7 @@ $(document).ready(function () {
         submitButton.innerText = 'Just A Moment...';
         const templateParams = serializeForm(event.target);
         emailjs.send(serviceID, templateID, templateParams)
-            .then(function (response) {
+            .then(function () {
                 // change button text
                 submitButton.innerText = 'Message Sent Successfully!';
                 // clear form

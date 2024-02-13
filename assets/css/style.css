@@ -135,7 +135,6 @@ html, body {
     z-index: 9999;
     top: 0;
     width: 100%;
-    max-width: 1920px; /* !Adjust the max-width as needed *!*/
 }
 
 @media (min-width: 1280px) {
@@ -150,6 +149,7 @@ nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0, 0, 0, .6);
+    max-width: 1920px; /* !Adjust the max-width as needed */
 }
 
 /*.navbar-brand*/
@@ -158,7 +158,7 @@ nav.navbar.bootsnav {
     color: #d92cf9;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0 57px 0;
+    padding: 33px 75px 57px 0;
     text-transform: uppercase;
 }
 
