@@ -44,14 +44,15 @@ $(document).ready(function () {
         event.preventDefault();
         var anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top - 0
+            scrollTop: $(anchor.attr('href')).offset().top - 65
         }, 1200, 'easeInOutExpo');
     });
 
     $('body').scrollspy({
         target: '.navbar-collapse',
-        offset: 0
+        offset: 100
     });
+
 
     // 3. Progress-bar
 
