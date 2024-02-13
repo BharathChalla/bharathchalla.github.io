@@ -70,48 +70,8 @@ $(document).ready(function () {
         });
     }
 
-    // 4. owl carousel
 
-    // i. client (carousel)
-
-    $('#client').owlCarousel({
-        items: 3,
-        loop: true,
-        smartSpeed: 1000,
-        autoplay: true,
-        responsiveClass: true,
-        dots: false,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 2
-            },
-            415: {
-                items: 2
-            },
-            600: {
-                items: 4
-
-            },
-            1199: {
-                items: 4
-            },
-            1200: {
-                items: 7
-            }
-        }
-    });
-
-
-    $('.play').on('click', function () {
-        owl.trigger('play.owl.autoplay', [1000])
-    })
-    $('.stop').on('click', function () {
-        owl.trigger('stop.owl.autoplay')
-    })
-
-
-    // 5. welcome animation support
+    // 4. welcome animation support
 
     $(window).load(function () {
         $(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity': '0'});
